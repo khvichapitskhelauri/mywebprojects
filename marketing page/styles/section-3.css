@@ -1,0 +1,116 @@
+.section-3 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.section-3 .profiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: rgba(35, 26, 54, 1);
+    color: white;
+    width: 100%;
+}
+
+.section-3 .profiles h2 {
+    font-size: 40px;
+    width: 600px;
+}
+
+.section-3 .profiles p {
+    color: rgba(123, 146, 146, 1);
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 480px;
+    margin-left: 40px;
+}
+
+.section-3 .profiles ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.section-3 .profiles ul li {
+    flex-direction: column;
+    display: flex;
+}
+
+.section-3 .profiles ul li span:first-child {
+    font-size: 40px;
+}
+
+.section-3 .profiles ul li span:nth-child(2) {
+    color: rgba(123, 146, 146, 1);
+}
+
+.solutions-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.solutions-2 h2 {
+    color: rgba(31, 31, 38, 1);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.solutions-2 h3 {
+    color: rgba(66, 102, 102, 1);
+    width: 440px;
+}
+
+.clothing ul {
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.clothing>ul>li>div {
+    position: absolute;
+    bottom: -140px;
+    background-color: white;
+    padding: 20px;
+    width: 272px;
+    height: 175px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.clothing>ul>li>div>h2 {
+    color: rgba(59, 59, 67, 1);
+    font-size: 20px;
+}
+
+.clothing>ul>li>div>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clothing>ul>li>div>div>div>span {
+    font-size: 30px;
+    color: rgba(31, 31, 38, 1);
+}
+
+.clothing>ul>li>div>div>div>h3 {
+    color: rgba(173, 173, 186, 1);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.section-3 button {
+    border: none;
+    color: rgba(179, 60, 219, 1);
+    font-size: 16px;
+}

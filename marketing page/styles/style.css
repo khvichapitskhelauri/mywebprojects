@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    padding-top: 30px;
+    margin-bottom: 500px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}

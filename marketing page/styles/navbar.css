@@ -1,0 +1,45 @@
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar-links span {
+    width: 113px;
+    height: 30px;
+
+}
+
+.navbar-links li {
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+
+.navbar-links li svg {
+    width: 8px;
+    height: 8px;
+}
+
+.navbar-links li:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    margin: 0 auto;
+}
+
+button {
+    width: 154px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #FFFFFF33;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .title {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}

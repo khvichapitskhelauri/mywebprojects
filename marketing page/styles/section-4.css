@@ -1,0 +1,123 @@
+.section-4 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 250px;
+    align-items: center;
+}
+
+.section-4 .Happy-Clients {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .Happy-Clients h3 {
+    width: 500px;
+    margin-top: 20px;
+    color: rgba(66, 102, 102, 1);
+}
+
+.section-4 .Happy-Clients h2 {
+    font-size: 40px;
+    color: rgba(31, 31, 38, 1);
+}
+
+.section-4 .company-strategy {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.section-4 .company-strategy>div:first-child {
+    display: flex;
+    width: 380px;
+    flex-direction: column;
+    position: relative;
+}
+
+.section-4 .company-strategy>div>p {
+    color: rgba(109, 109, 109, 1);
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.section-4 .company-strategy>div>span {
+    color: rgba(28, 28, 29, 1);
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.section-4 .company-strategy>div>h2 {
+    color: rgba(156, 152, 143, 1);
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.section-4 .company-strategy>div>svg:last-child {
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+    cursor: pointer;
+}
+
+.section-4 .additional-info {
+    width: 1000px;
+    height: 340px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.section-4 .additional-info .bg-2 {
+    position: absolute;
+    z-index: -1;
+    width: 1000px;
+    height: 340px;
+    border-radius: 20px;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(at bottom left, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 47%, rgba(223, 196, 251, 1) 95%);
+}
+
+.section-4 .additional-info .bg-2::after {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    z-index: -1;
+    height: 340px;
+    border-radius: 20px;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(at top right, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 47%, rgba(223, 196, 251, 1) 95%);
+}
+
+.section-4 .additional-info span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.section-4 .additional-info p {
+    color: rgba(255, 255, 255, 0.83);
+    font-size: 20px;
+    width: 540px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.section-4 .additional-info button {
+    background-color: rgba(35, 26, 54, 1);
+    margin-top: 50px;
+}
+
+.section-4 .additional-info button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
