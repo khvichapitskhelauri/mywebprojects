@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.footer .add-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer .page-info {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.footer .add-info .page-info li {
+    color: #404041;
+    cursor: pointer;
+}
+
+.footer .add-info h2 {
+    font-size: 20px;
+    color: #17181A;
+}
+
+.footer .add-info .login {
+    display: flex;
+    color: #404041;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.footer .add-info .login span {
+    cursor: pointer;
+}
+
+.footer .add-info .login h3 {
+    cursor: pointer;
+}
+
+.footer .add-info .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.footer .add-info .social-links svg {
+    cursor: pointer;
+}
+
+.footer .site-copyright {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.footer .site-copyright span {
+    color: #1B1B1B59;
+    cursor: pointer;
+}
+
+.footer .site-copyright p {
+    color: #1B1B1B59;
+    cursor: pointer;
+}

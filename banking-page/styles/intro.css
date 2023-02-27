@@ -1,0 +1,167 @@
+.intro {
+    margin-top: 110px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.intro .banking-services {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.intro .banking-services .banking {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro .banking-services .banking h2 {
+    font-size: 70px;
+    width: 430px;
+}
+
+.intro .banking-services .banking p {
+    width: 275px;
+}
+
+.intro .banking-services .banking button {
+    background-color: #222223;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 1px;
+    height: 30px;
+}
+
+.intro .banking-services .banking button:hover {
+    background-color: gold;
+    color: white;
+}
+
+.intro .banking-services .banking span {
+    font-size: 20px;
+    color: #222223;
+}
+
+.intro .banking-services .banking p {
+    font-size: 18px;
+    color: #535354;
+    height: 60px;
+}
+
+.intro .banking-services .card-box {
+    width: 675px;
+    height: 327px;
+    display: flex;
+}
+
+.intro .banking-services .card-box .card {
+    position: relative;
+    width: 447px;
+    height: 327px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, rgba(128, 209, 255, 1) 9%, rgba(68, 178, 241, 1) 33%);
+}
+
+.intro>.banking-services>.card-box>.card>object {
+    transform: rotate(-26deg);
+    margin-bottom: 100px;
+    width: 370px;
+}
+
+.intro>.banking-services>.card-box>.card>svg {
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+.intro>.banking-services>.card-box>.icons {
+    position: relative;
+    width: 228px;
+    height: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(255, 217, 104, 1) 52%, rgba(250, 196, 34, 1) 100%);
+}
+
+.intro>.banking-services>.card-box>.icons ul {
+    width: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.intro>.banking-services>.card-box>.icons ul li {
+    cursor: pointer;
+    border: 1px;
+
+}
+
+.intro .offers {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.intro .offers ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro .offers li {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro .offers ul li:first-child span:first-child {
+    width: 150px;
+    font-size: 30px;
+    color: #222223;
+}
+
+.intro>.offers>ul>li:first-child span:last-child {
+    width: 240px;
+    margin-top: 20px;
+    color: #5F5F64;
+}
+
+.intro>.offers>ul>li:nth-child(2)>span:nth-child(2) {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #17181A;
+}
+
+.intro>.offers>ul>li:nth-child(2)>span:nth-child(3) {
+    width: 200px;
+    margin-top: 20px;
+    color: #5F5F64;
+}
+
+.intro>.offers>ul>li:nth-child(3)>span:nth-child(2) {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #17181A;
+}
+
+.intro>.offers>ul>li:nth-child(3)>span:nth-child(3) {
+    width: 200px;
+    margin-top: 20px;
+    color: #5F5F64;
+}
+
+.intro>.offers>ul>li:last-child>span:nth-child(2) {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #17181A;
+}
+
+.intro>.offers>ul>li:last-child>span:nth-child(3) {
+    width: 200px;
+    margin-top: 20px;
+    color: #5F5F64;
+}

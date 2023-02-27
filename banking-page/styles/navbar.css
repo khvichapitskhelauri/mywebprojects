@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    gap: 30px;
+    color: #404041;
+}
+
+.navbar .navbar-links li {
+    cursor: pointer;
+}
+
+.navbar-links li:hover {
+    text-decoration: underline;
+}
+
+.navbar h1 {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px;
+}
+
+.navbar button:hover {
+    background-color: #97e69a;
+    color: white;
+}
