@@ -1,0 +1,62 @@
+.intro {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.intro .solution {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.intro .solution h2 {
+    background-color: #def1f1;
+    width: 180px;
+    height: 40px;
+    color: #217BF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.intro .solution span {
+    color: #0A093D;
+    font-size: 56px;
+}
+
+.intro .solution p {
+    color: #656464;
+    font-size: 18px;
+    width: 430px;
+}
+
+.intro .button-box {
+    margin-top: 40px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro .button-box .about {
+    color: white;
+    background-color: #217BF4;
+    width: 165px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+}
+
+.intro .button-box .invite {
+    color: #217BF4;
+    background-color: white;
+    width: 165px;
+    height: 60px;
+    cursor: pointer;
+    border-color: #217BF4;
+    border-radius: 14px;
+}
