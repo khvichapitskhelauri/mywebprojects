@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/networking-page/styles/navbar.css">
     <link rel="stylesheet" href="/networking-page/styles/login.css">
     <link rel="stylesheet" href="/networking-page/styles/intro.css">
+    <link rel="stylesheet" href="/networking-page/styles/social.css">
     <script defer src="/networking-page/search.js"></script>
     <script defer src="/networking-page/login.js"></script>
 </head>
@@ -33,17 +34,17 @@
         </div>
         <ul>
             <li>Home</li>
-
             <li>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button">
+                    <button class="btn btn-secondary dropdown-toggle" onclick="toggleMenu()">
                         Community
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" id="dropdownCommunity">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
+
                 </div>
             </li>
             <li>Blog</li>
@@ -75,9 +76,12 @@
                         <button type="button" class="toggle-btn" onclick="register()">register</button>
                     </div>
                     <div class="social-icons">
-                        <img src="./photos/icons8-facebook-48.png" alt="facebook">
-                        <img src="./photos/icons8-instagram-48.png" alt="instagram">
-                        <img src="./photos/icons8-twitter-48.png" alt="twitter">
+                        <a href="https://facebook.com/" target="_blank"><img src="./photos/icons8-facebook-48.png"
+                                alt="facebook"></a>
+                        <a href="https://instagram.com/" target="_blank"><img src="./photos/icons8-instagram-48.png"
+                                alt="instagram"></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="./photos/icons8-twitter-48.png"
+                                alt="twitter"></a>
                     </div>
                     <form id="login" class="input-group">
                         <input type="text" class="input-field" placeholder="user id" required>
@@ -116,6 +120,45 @@
 
 
     </div>
+
+    <section class="social-place container">
+        <div class="social-network">
+            <h2>Whats Netboks?</h2>
+            <span>Why Join to Netbook Social Network?</span>
+            <p>Recent surveys have indicated that small businesses recognise the need they have to connect with
+                consumer.</p>
+            <ul>
+                <li><svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4.52832" r="4" fill="#217BF4" />
+                    </svg>
+                    Groups</li>
+                <li><svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4.52832" r="4" fill="#217BF4" />
+                    </svg>
+                    Messages</li>
+                <li><svg width="8" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4.52832" r="4" fill="#217BF4" />
+                    </svg>
+                    Share</li>
+            </ul>
+
+        </div>
+        <div class="imgs">
+            <img class="first-img" src="./photos/Image.png">
+            <img src="./photos/Image (1).png">
+            <img src="./photos/Image (2).png">
+        </div>
+
+    </section>
+
+    <script>
+        let dropdownCommunity = document.getElementById("dropdownCommunity");
+
+        function toggleMenu() {
+            dropdownCommunity.classList.toggle("active");
+        }
+
+    </script>
 
 </body>
 

@@ -52,11 +52,27 @@
 }
 
 .intro .button-box .invite {
-    color: #217BF4;
-    background-color: white;
+    color: white;
+    background-color: #217BF4;
     width: 165px;
     height: 60px;
     cursor: pointer;
-    border-color: #217BF4;
+    border: none;
     border-radius: 14px;
+}
+
+.intro .button-box .about:hover {
+    background-color: white;
+    color: #217BF4;
+    border-radius: 14px;
+    border-color: #217BF4;
+    border: 1px solid;
+}
+
+.intro .button-box .invite:hover {
+    background-color: white;
+    color: #217BF4;
+    border-radius: 14px;
+    border-color: #217BF4;
+    border: 1px solid;
 }

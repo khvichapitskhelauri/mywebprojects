@@ -1,0 +1,58 @@
+.social-place {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.social-place .social-network {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+}
+
+.social-place .social-network h2 {
+    color: #217BF4;
+    cursor: pointer;
+    width: 106px;
+}
+
+.social-place .social-network span {
+    color: #0A093D;
+    font-size: 35px;
+}
+
+.social-place .social-network p {
+    color: #656464;
+}
+
+.social-place .social-network ul {
+    margin-top: 20px;
+    width: 90px;
+}
+
+.social-place .social-network ul li {
+    color: #171648;
+    cursor: pointer;
+}
+
+.social-place .imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    transition: 0.5s;
+}
+
+.social-place .imgs .first-img {
+    grid-row-end: 3;
+    grid-row-start: 1;
+    margin-top: 60px;
+}
+
+.social-place .imgs img {
+    cursor: pointer;
+}
+
+.social-place .imgs:hover img {
+    transform: translate(10px);
+}
