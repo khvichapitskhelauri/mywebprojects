@@ -1,58 +1,148 @@
 .social-place {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    height: 600px;
+    flex-direction: column;
 }
 
-.social-place .social-network {
+.social-place .part-1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.social-place .part-1 .social-network {
     display: flex;
     flex-direction: column;
     width: 390px;
 }
 
-.social-place .social-network h2 {
+.social-place .part-1 .social-network h2 {
     color: #217BF4;
     cursor: pointer;
     width: 106px;
 }
 
-.social-place .social-network span {
+.social-place .part-1 .social-network span {
     color: #0A093D;
     font-size: 35px;
 }
 
-.social-place .social-network p {
+.social-place .part-1 .social-network p {
     color: #656464;
 }
 
-.social-place .social-network ul {
+.social-place .part-1 .social-network ul {
     margin-top: 20px;
     width: 90px;
 }
 
-.social-place .social-network ul li {
+.social-place .part-1 .social-network ul li {
     color: #171648;
     cursor: pointer;
 }
 
-.social-place .imgs {
+.social-place .part-1 .imgs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     transition: 0.5s;
 }
 
-.social-place .imgs .first-img {
+.social-place .part-1 .imgs .first-img {
     grid-row-end: 3;
     grid-row-start: 1;
     margin-top: 60px;
 }
 
-.social-place .imgs img {
+.social-place .part-1 .imgs img {
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.social-place .part-1 .imgs:hover img:first-child {
+    transform: scale(1.2);
+}
+
+.social-place .part-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.social-place .part-2 .rating .stars {
+    display: flex;
+    align-items: center;
+    width: 95px;
     cursor: pointer;
 }
 
-.social-place .imgs:hover img {
-    transform: translate(10px);
+.social-place .part-2 .rating .members {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 195px;
+}
+
+.social-place .part-2 .rating p {
+    color: #8C8C8C;
+    width: 236px;
+}
+
+.social-place .part-2 button {
+    color: white;
+    background-color: #217BF4;
+    width: 165px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+
+.social-place .part-2 .awwards .trophy {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+.social-place .part-2 .awwards .github {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 200px;
+}
+
+.social-place .part-2 .awwards p {
+    color: #8C8C8C;
+    width: 236px;
+}
+
+.social-place .part-2 button:hover {
+    background-color: white;
+    color: #217BF4;
+    border-radius: 14px;
+    border-color: #217BF4;
+    border: 1px solid;
+}
+
+.social-place .part-2 .achievement h2 {
+    color: #217BF4;
+    font-size: 20px;
+    width: 142px;
+}
+
+.social-place .part-2 .achievement span {
+    color: #0A093D;
+    font-size: 36px;
+    width: 380px;
+    display: flex;
+    line-height: 1.2;
+}
+
+.social-place .part-2 .achievement p {
+    color: #8C8C8C;
+    width: 305px;
 }

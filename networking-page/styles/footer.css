@@ -1,0 +1,103 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+    width: 1200px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(43, 43, 57, 1) 80%, rgba(32, 32, 45, 1) 80%);
+    align-items: normal;
+}
+
+.footer .add-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.footer .add-info ul {
+    margin-top: 25px;
+}
+
+.footer .add-info ul li {
+    line-height: 2;
+    cursor: pointer;
+    color: #E7E7E7;
+}
+
+.footer .add-info .Newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer .add-info .Newsletter span {
+    font-size: 20px;
+    width: 180px;
+    line-height: 1.5;
+}
+
+.footer .add-info .Newsletter p {
+    color: #E7E7E7;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.footer .add-info .Newsletter .Subscribe {
+    position: relative;
+    color: #2B2B39;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .add-info .Newsletter .Subscribe input {
+    border: 1px solid;
+    border-radius: 14px;
+    height: 40px;
+    width: 294px;
+    transition: 150ms cubic-bezier(.4, 0, .2, 1);
+    background: transparent;
+    color: white;
+}
+
+.footer .add-info .Newsletter .Subscribe label {
+    position: absolute;
+    margin-left: 5px;
+    height: 40px;
+    width: 98px;
+    background-color: white;
+    border-radius: 14px;
+    right: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.footer .add-info .Newsletter .Subscribe input:focus {
+    outline: none;
+    border: 1.5px solid rgb(187, 21, 16);
+}
+
+.footer .lastline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.footer .lastline .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.footer .lastline .social-icons {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}

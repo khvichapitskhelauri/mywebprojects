@@ -1,0 +1,113 @@
+.app-end-news {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.app-end-news .app {
+    display: flex;
+    background-color: #E5F0FD;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.app-end-news .app .application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-end-news .app .application h2 {
+    color: #217BF4;
+}
+
+.app-end-news .app .application span {
+    color: #0A093D;
+    font-size: 36px;
+    width: 350px;
+}
+
+.app-end-news .app .application p {
+    color: #656464;
+    width: 340px;
+}
+
+.app-end-news .app .application .links {
+    display: flex;
+    align-items: center;
+}
+
+.app-end-news .app .application .links .applestore {
+    width: 180px;
+    cursor: pointer;
+}
+
+.app-end-news .app .application .links .playstore {
+    width: 140px;
+    cursor: pointer;
+}
+
+.app-end-news .app .mobile {
+    width: 500px;
+}
+
+.app-end-news .news {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.app-end-news .news .news-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app-end-news .news .news-head h2 {
+    color: #217BF4;
+}
+
+.app-end-news .news .news-head span {
+    color: #0A093D;
+    font-size: 36px;
+}
+
+.app-end-news .news .news-group {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.app-end-news .news .news-group div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-end-news .news .news-group div span {
+    color: #2F2C4A;
+    width: 205px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.app-end-news .news .news-group div button {
+    color: white;
+    background-color: #217BF4;
+    width: 165px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+.app-end-news .news .news-group div button:hover {
+    background-color: white;
+    color: #217BF4;
+    border-radius: 14px;
+    border-color: #217BF4;
+    border: 1px solid;
+}

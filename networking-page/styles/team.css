@@ -1,0 +1,156 @@
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.team .head-team {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team .head-team h2 {
+    color: #217BF4;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.team .head-team span {
+    color: #0A093D;
+    font-size: 36px;
+}
+
+.team .head-team p {
+    color: #656464;
+    width: 400px;
+}
+
+.team .team-button-box {
+    position: relative;
+    width: 475px;
+    margin: 35px auto;
+    box-shadow: 0 0 20px 9px yellow;
+    border-radius: 30px;
+    background-color: rgb(217, 224, 224);
+    height: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team .team-button-box .toggle-btn {
+    border: none;
+    color: #2F2C4A;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+}
+
+.team .team-button-box #team-btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background-color: #217BF4;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.team .form-box .Newst-people {
+    width: 1200px;
+    display: none;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.team .Newst-people div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.team .Newst-people div img {
+    position: absolute;
+    margin-top: 8px;
+    z-index: -1;
+}
+
+.team .Newst-people h2 {
+    color: #2F2C4A;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.team .Newst-people span {
+    color: #656464;
+    cursor: pointer;
+}
+
+.team .form-box .Popular-people {
+    width: 1200px;
+    display: none;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.team .Popular-people div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.team .Popular-people div img {
+    position: absolute;
+    margin-top: 8px;
+    z-index: -1;
+}
+
+.team .Popular-people h2 {
+    color: #2F2C4A;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.team .Popular-people span {
+    color: #656464;
+    cursor: pointer;
+}
+
+.team .form-box .Active-people {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.team .Active-people div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.team .Active-people div img {
+    position: absolute;
+    margin-top: 8px;
+    z-index: -1;
+}
+
+
+.team .Active-people h2 {
+    color: #2F2C4A;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.team .Active-people span {
+    color: #656464;
+    cursor: pointer;
+}

@@ -5,9 +5,9 @@ const clear = document.querySelector('.clear');
 icon.onclick = function () {
     search.classList.toggle('active')
 }
-clear.onclick = function () {
-    search.classList.toggle('active')
-}
+// clear.onclick = function () {
+//     search.classList.toggle('active')
+// }
 
 
 
