@@ -1,0 +1,199 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 768px;
+    }
+}
+
+/* tablets */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 576px;
+    }
+
+    .navbar {
+        background-color: rgb(211, 217, 218);
+    }
+
+    .navbar .hamburger-menu {
+        display: block;
+    }
+
+    .navbar .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar .hamburger-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .navbar .hamburger-menu.active .bar:nth-child(3) {
+        transform: translateY(8px) rotate(-45deg);
+    }
+
+    .navbar .burger-bar {
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(197, 77, 77);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .navbar .burger-bar li {
+        margin: 16px 0;
+        color: white;
+    }
+
+    .navbar .burger-bar.active {
+        left: 0;
+    }
+
+    .navbar .search.active {
+        width: 200px;
+    }
+
+    .navbar .search .input .clear {
+        right: 165px;
+    }
+
+    .intro {
+        justify-content: center;
+    }
+
+    .intro .solution span {
+        font-size: 35px;
+    }
+
+    .intro img {
+        display: none;
+    }
+
+    .social-place .part-1 {
+        flex-direction: column;
+    }
+
+    .social-place .part-1 .imgs img {
+        width: 215px;
+    }
+
+    .social-place .part-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .social-place .part-2 .achievement span {
+        font-size: 23px;
+    }
+
+    .social-place .part-2 .rating p {
+        width: 100%;
+    }
+
+    .social-place .part-2 .awwards p {
+        width: 100%;
+    }
+
+    .social-place .part-2 .achievement p {
+        width: 100%;
+    }
+
+    .commiunity .grid-container .members {
+        height: 205px;
+        width: 290px;
+    }
+
+    .grid-container .members span {
+        font-size: 20px;
+    }
+
+    .commiunity .grid-container .members svg {
+        padding: 10px;
+    }
+
+    .commiunity .grid-container p {
+        width: 150px;
+    }
+
+    .commiunity .grid-container .Groups {
+        height: 205px;
+        width: 290px;
+    }
+
+    .grid-container .Groups span {
+        font-size: 20px;
+    }
+
+    .commiunity .grid-container .Groups svg {
+        padding: 10px;
+    }
+
+    .commiunity .grid-container .Forum {
+        height: 205px;
+        width: 290px;
+    }
+
+    .grid-container .Forum span {
+        font-size: 20px;
+    }
+
+    .commiunity .grid-container .Forum svg {
+        padding: 10px;
+    }
+
+    .commiunity .grid-container .Custom-Module {
+        height: 205px;
+        width: 290px;
+    }
+
+    .grid-container .Custom-Module span {
+        font-size: 20px;
+    }
+
+    .commiunity .grid-container .Custom-Module svg {
+        padding: 10px;
+    }
+
+    .commiunity .grid-container .List-Builder {
+        height: 205px;
+        width: 290px;
+    }
+
+    .grid-container .List-Builder span {
+        font-size: 20px;
+    }
+
+    .commiunity .grid-container .List-Builder svg {
+        padding: 10px;
+    }
+
+    .commiunity .grid-container .List-Scroll-Effects {
+        height: 205px;
+        width: 290px;
+    }
+
+    .grid-container .List-Scroll-Effects span {
+        font-size: 20px;
+    }
+
+    .commiunity .grid-container .List-Scroll-Effects svg {
+        padding: 10px;
+    }
+
+
+}
+
+/*smartfones*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .navbar {
+        background-color: rgb(183, 231, 233);
+    }
+
+}

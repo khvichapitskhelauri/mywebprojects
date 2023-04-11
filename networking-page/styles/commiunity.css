@@ -51,11 +51,15 @@
     padding: 16px;
     border-radius: 24px;
     cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
 
 .commiunity .grid-container span {
     color: #2F2C4A;
     font-size: 24px;
+    grid-column-start: 2;
 }
 
 .commiunity .grid-container p {
@@ -81,6 +85,9 @@
     padding: 16px;
     border-radius: 24px;
     cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
 
 .commiunity .grid-container .Forum {
@@ -100,6 +107,9 @@
     padding: 16px;
     border-radius: 24px;
     cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
 
 .commiunity .grid-container .Custom-Module {
@@ -119,6 +129,9 @@
     padding: 16px;
     border-radius: 24px;
     cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
 
 .commiunity .grid-container .List-Builder {
@@ -138,6 +151,9 @@
     padding: 16px;
     border-radius: 24px;
     cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }
 
 .commiunity .grid-container .List-Scroll-Effects {
@@ -157,4 +173,7 @@
     padding: 16px;
     border-radius: 24px;
     cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
 }

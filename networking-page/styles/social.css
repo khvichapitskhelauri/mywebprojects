@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     width: 390px;
+    justify-content: center;
 }
 
 .social-place .part-1 .social-network h2 {
@@ -59,7 +60,7 @@
     transition: transform .2s;
 }
 
-.social-place .part-1 .imgs:hover img:first-child {
+.social-place .part-1 .imgs img:first-child:hover {
     transform: scale(1.2);
 }
 
@@ -68,7 +69,6 @@
     width: 100%;
     justify-content: space-between;
     margin-top: 50px;
-    height: 300px;
 }
 
 .social-place .part-2 .rating .stars {
@@ -136,7 +136,7 @@
 
 .social-place .part-2 .achievement span {
     color: #0A093D;
-    font-size: 36px;
+    font-size: 30px;
     width: 380px;
     display: flex;
     line-height: 1.2;

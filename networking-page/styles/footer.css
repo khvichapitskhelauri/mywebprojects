@@ -61,7 +61,7 @@
     color: white;
 }
 
-.footer .add-info .Newsletter .Subscribe label {
+.footer .add-info .Newsletter .Subscribe button {
     position: absolute;
     margin-left: 5px;
     height: 40px;
@@ -78,7 +78,7 @@
 
 .footer .add-info .Newsletter .Subscribe input:focus {
     outline: none;
-    border: 1.5px solid rgb(187, 21, 16);
+    border: 1.5px solid rgb(17, 192, 110);
 }
 
 .footer .lastline {
