@@ -47,6 +47,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     transition: 0.5s;
+    margin-top: 25px;
 }
 
 .social-place .part-1 .imgs .first-img {

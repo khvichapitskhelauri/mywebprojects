@@ -59,12 +59,16 @@
         right: 165px;
     }
 
-    .intro {
-        justify-content: center;
+    .intro .solution {
+        width: 100%;
     }
 
     .intro .solution span {
         font-size: 35px;
+    }
+
+    .intro .solution p {
+        width: 100%;
     }
 
     .intro img {
@@ -73,6 +77,10 @@
 
     .social-place .part-1 {
         flex-direction: column;
+    }
+
+    .social-place .part-1 .social-network {
+        width: 100%;
     }
 
     .social-place .part-1 .imgs img {
@@ -101,9 +109,13 @@
         width: 100%;
     }
 
+    .commiunity .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .commiunity .grid-container .members {
-        height: 205px;
-        width: 290px;
+        height: 150px;
     }
 
     .grid-container .members span {
@@ -114,13 +126,8 @@
         padding: 10px;
     }
 
-    .commiunity .grid-container p {
-        width: 150px;
-    }
-
     .commiunity .grid-container .Groups {
-        height: 205px;
-        width: 290px;
+        height: 150px;
     }
 
     .grid-container .Groups span {
@@ -132,8 +139,7 @@
     }
 
     .commiunity .grid-container .Forum {
-        height: 205px;
-        width: 290px;
+        height: 150px;
     }
 
     .grid-container .Forum span {
@@ -145,8 +151,7 @@
     }
 
     .commiunity .grid-container .Custom-Module {
-        height: 205px;
-        width: 290px;
+        height: 150px;
     }
 
     .grid-container .Custom-Module span {
@@ -158,8 +163,7 @@
     }
 
     .commiunity .grid-container .List-Builder {
-        height: 205px;
-        width: 290px;
+        height: 150px;
     }
 
     .grid-container .List-Builder span {
@@ -171,8 +175,7 @@
     }
 
     .commiunity .grid-container .List-Scroll-Effects {
-        height: 205px;
-        width: 290px;
+        height: 150px;
     }
 
     .grid-container .List-Scroll-Effects span {
@@ -183,6 +186,68 @@
         padding: 10px;
     }
 
+    .team .form-box .Active-people {
+        width: 500px;
+        flex-wrap: wrap;
+    }
+
+    .team .form-box .Newst-people {
+        width: 500px;
+        flex-wrap: wrap;
+    }
+
+    .team .form-box .Popular-people {
+        width: 500px;
+        flex-wrap: wrap;
+    }
+
+    .app-end-news .app {
+        flex-direction: column;
+    }
+
+    .app-end-news .app .mobile {
+        display: none;
+    }
+
+    .app-end-news .app .application span {
+        font-size: 30px;
+        width: 410px;
+    }
+
+    .app-end-news .news .news-group {
+        display: flex;
+        width: 100%;
+    }
+
+    .app-end-news .news .news-group img {
+        width: 180px;
+        margin-top: 40px;
+    }
+
+    .app-end-news .news .news-group div span {
+        font-size: 16px;
+    }
+
+    .footer {
+        height: 525px;
+    }
+
+    .footer .add-info {
+        flex-wrap: wrap;
+    }
+
+    .footer .add-info .Newsletter {
+        margin-top: 50px;
+        width: 525px;
+    }
+
+    .footer .add-info .Newsletter span {
+        width: 100%;
+    }
+
+    .footer .add-info .Newsletter .Subscribe {
+        width: 300px;
+    }
 
 }
 

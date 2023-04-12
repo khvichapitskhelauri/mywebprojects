@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 .commiunity .head-commiunity h2 {
@@ -65,7 +66,6 @@
 .commiunity .grid-container p {
     color: #656464;
     grid-column-start: 2;
-    width: 200px;
 }
 
 .commiunity .grid-container .Groups {
