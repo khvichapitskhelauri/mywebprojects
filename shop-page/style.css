@@ -1,0 +1,130 @@
+.prodacts-container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(222, 230, 229);
+    justify-content: center;
+}
+
+.prodacts-container .prodacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    background-color: darkcyan;
+}
+
+.prodacts-container .prodacts .colors-of-headphones {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.prodacts-container .prodacts .red-headphone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prodacts-container .prodacts .red-headphone img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.prodacts-container .prodacts .red-headphone span {
+    font-size: 32px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.prodacts-container .prodacts .red-headphone p {
+    width: 300px;
+    color: #333333;
+}
+
+.prodacts-container .prodacts .blue-headphone {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.prodacts-container .prodacts .blue-headphone img {
+    width: 295px;
+    margin-top: 20px;
+}
+
+.prodacts-container .prodacts .blue-headphone span {
+    font-size: 32px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.prodacts-container .prodacts .blue-headphone p {
+    width: 300px;
+    color: #333333;
+}
+
+.prodacts-container .prodacts .black-headphone {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.prodacts-container .prodacts .black-headphone img {
+    width: 295px;
+    margin-top: 20px;
+}
+
+.prodacts-container .prodacts .black-headphone span {
+    font-size: 32px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.prodacts-container .prodacts .black-headphone p {
+    width: 300px;
+    color: #333333;
+}
+
+.prodacts-container .prodacts .catalogue span {
+    color: #333333;
+}
+
+.prodacts-container .prodacts .catalogue .headphones {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.prodacts-container .prodacts .catalogue .headphones .red {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: 3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.prodacts-container .prodacts .catalogue .headphones .blue {
+    width: 40px;
+    height: 40px;
+    background-color: #3C81F6;
+    border: 3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.prodacts-container .prodacts .catalogue .headphones .black {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: 3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: white;
+}
