@@ -1,0 +1,79 @@
+.prodacts-container .prodacts .colors-of-headphones {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.prodacts-container .prodacts .red-headphone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prodacts-container .prodacts .red-headphone img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.prodacts-container .prodacts .red-headphone span {
+    font-size: 32px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.prodacts-container .prodacts .red-headphone p {
+    width: 300px;
+    color: #333333;
+}
+
+.prodacts-container .prodacts .blue-headphone {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.prodacts-container .prodacts .blue-headphone img {
+    width: 295px;
+    margin-top: 20px;
+}
+
+.prodacts-container .prodacts .blue-headphone span {
+    font-size: 32px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.prodacts-container .prodacts .blue-headphone p {
+    width: 300px;
+    color: #333333;
+}
+
+.prodacts-container .prodacts .black-headphone {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.prodacts-container .prodacts .black-headphone img {
+    width: 295px;
+    margin-top: 20px;
+}
+
+.prodacts-container .prodacts .black-headphone span {
+    font-size: 32px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.prodacts-container .prodacts .black-headphone p {
+    width: 300px;
+    color: #333333;
+}
+
+.prodacts-container .prodacts .catalogue span {
+    color: #333333;
+    justify-content: center;
+    display: flex;
+}

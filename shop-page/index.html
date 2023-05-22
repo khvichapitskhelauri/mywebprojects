@@ -5,14 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop-page></title>
+    <title>Shop-page</title>
     <link rel="stylesheet" href="/shop-page/style.css">
+    <link rel="stylesheet" href="/shop-page/headphone.css">
+    <link rel="stylesheet" href="/shop-page/catalogue.css">
+    <link rel="stylesheet" href="/shop-page/card.css">
     <script defer src="/shop-page/script.js"></script>
 </head>
 
 <body>
     <div class="prodacts-container">
+
+        <div id="card1" class="card">
+            <h2>Card</h2>
+            <ul class="listcard"></ul>
+            <div class="checkout">
+                <div class="total">0</div>
+                <div class="closeshopping">Close</div>
+            </div>
+        </div>
+
         <section class="prodacts">
+            <div class="shop-basket">
+                <span class="quantity">0</span>
+                <img src="./photos/cart img.png">
+            </div>
             <div class="colors-of-headphones">
 
                 <div id="red" class="red-headphone">
@@ -23,7 +40,6 @@
                         warranty.
                     </p>
                 </div>
-
                 <div id="blue" class="blue-headphone">
                     <img src="./photos/blue-headphone.jpeg">
                     <span></span>
@@ -32,7 +48,6 @@
                         warranty.
                     </p>
                 </div>
-
                 <div id="black" class="black-headphone">
                     <img src="./photos/black-headphone.jpeg">
                     <span></span>
@@ -52,8 +67,21 @@
                     <button type="button" class="black" onclick="black()"></button>
                 </div>
             </div>
+
+            <div class="add-cart">
+                <button>Add to cart</button>
+            </div>
+            <div class="Buy-now">
+                <button>Buy now</button>
+            </div>
+            <div class="read-reviews">
+                <span>Read reviews</span>
+            </div>
+
         </section>
     </div>
+
+
 </body>
 
 </html>

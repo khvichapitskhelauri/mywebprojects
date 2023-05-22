@@ -1,0 +1,35 @@
+.prodacts-container .prodacts .catalogue .headphones {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.prodacts-container .prodacts .catalogue .headphones .red {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: 3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.prodacts-container .prodacts .catalogue .headphones .blue {
+    width: 40px;
+    height: 40px;
+    background-color: #3C81F6;
+    border: 3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: white;
+}
+
+.prodacts-container .prodacts .catalogue .headphones .black {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: 3px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: white;
+}
